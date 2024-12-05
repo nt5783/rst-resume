@@ -7,6 +7,7 @@
 \usepackage{ifthen}
 \usepackage{fancyhdr}
 \usepackage{color}
+\usepackage[moderate]{savetrees}
 \definecolor{mylinkcolor}{rgb}{0,0,0.4}
 \definecolor{heading}{rgb}{0.91,0.91,0.91}
 \definecolor{brbg71}{rgb}{0.55,0.32,0.04}
@@ -112,7 +113,7 @@ anchorcolor=brbg77]{hyperref}
 \newcommand{\infosep}{\makebox[2em][c]{$\bullet$}}
 \newcommand{\MYNAME}{{\Huge \sffamily \bfseries \color{brbg72}\@title}}
 \newcommand{\MyName}{{\Large \sffamily \bfseries \color{brbg72}\@title}}
-\newcommand{\MYINFO}{{\sffamily \@infoemail\Large \infolinks}}
+\newcommand{\MYINFO}{{\sffamily \@infophone \hskip 1em \@infoemail\Large \infolinks}}
 \newcommand{\MyInfo}{}
 \makeatother
 
