@@ -3,7 +3,7 @@ Nechama Taurog
 ===============
 .. include:: utils.rst
 
-:phone:`058-324-3609`
+:phone:`+972-58-324-3609`
 :email:`nt243609@gmail.com`
 :github:`https://github.com/nt5783`
 

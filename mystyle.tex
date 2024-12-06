@@ -43,14 +43,16 @@ anchorcolor=brbg77]{hyperref}
 \makeatletter
 % save important information for future use
 \newcommand\infolinks[0]{}
-\newcommand{\DUroleemail}[1]{\newcommand{\@infoemail}{\href{mailto:#1}{#1}}}%
+\newcommand{\DUroleemail}[1]{\g@addto@macro\infolinks{%
+    \hspace{.7em}\href{mailto:#1}{\faEnvelope}}}%
 \newcommand{\DUrolegithub}[1]{\g@addto@macro\infolinks{%
     \hspace{.7em}\href{#1}{\faGithub}}}%
 \newcommand{\DUrolestackoverflow}[1]{\g@addto@macro\infolinks{%
     \hspace{.7em}\href{#1}{\faStackOverflow}}}%
 \newcommand{\DUrolelinkedin}[1]{\g@addto@macro\infolinks{%
     \hspace{.7em}\href{#1}{\faLinkedin}}}%
-\newcommand{\DUrolephone}[1]{\newcommand{\@infophone}{#1}}%
+\newcommand{\DUrolephone}[1]{\g@addto@macro\infolinks{%
+    \hspace{.7em}\href{tel:#1}{\faPhone}}}%
 \newcommand{\DUrolestreet}[1]{\newcommand{\@infostreet}{#1}}%
 \newcommand{\DUrolecity}[1]{\newcommand{\@infocity}{#1}}%
 \makeatother
@@ -113,7 +115,7 @@ anchorcolor=brbg77]{hyperref}
 \newcommand{\infosep}{\makebox[2em][c]{$\bullet$}}
 \newcommand{\MYNAME}{{\Huge \sffamily \bfseries \color{brbg72}\@title}}
 \newcommand{\MyName}{{\Large \sffamily \bfseries \color{brbg72}\@title}}
-\newcommand{\MYINFO}{{\sffamily \@infophone \hskip 1em \@infoemail\Large \infolinks}}
+\newcommand{\MYINFO}{{\Large \infolinks}}
 \newcommand{\MyInfo}{}
 \makeatother
 
