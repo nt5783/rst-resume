@@ -14,7 +14,7 @@ Education
 
 2024 – Present
     :description:`Power Tech`
-    :organization:`Google and Reichman Power Tech`
+    :organization:`Google and Reichman Tech School`
 
     Industry-oriented training covering a wide range of topics:
 
