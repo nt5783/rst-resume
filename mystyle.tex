@@ -10,6 +10,7 @@
 \usepackage[moderate]{savetrees}
 \definecolor{mylinkcolor}{rgb}{0,0,0.4}
 \definecolor{heading}{rgb}{0.91,0.91,0.91}
+\definecolor{subtitle}{rgb}{0.81,0.81,0.81}
 \definecolor{brbg71}{rgb}{0.55,0.32,0.04}
 \definecolor{brbg72}{rgb}{0.85,0.70,0.40}
 \definecolor{brbg73}{rgb}{0.96,0.91,0.76}
@@ -113,7 +114,8 @@ anchorcolor=brbg77]{hyperref}
 \titlespacing{\section}{0pt}{-0.7em}{0pt}
 
 \newcommand{\infosep}{\makebox[2em][c]{$\bullet$}}
-\newcommand{\MYNAME}{{\Huge \sffamily \bfseries \color{brbg72}\@title}\ \ \ \ Software Engineer}
+\newcommand{\MYNAME}{\raisebox{0pt}{\Huge \sffamily \bfseries \color{brbg72}\@title}%
+\color{subtitle}\raisebox{0pt}{\hskip 0.8em \parbox[b]{\textwidth}{\linespread{0.8}\firaheavy Software \\ Engineer}}}
 \newcommand{\MyName}{{\Large \sffamily \bfseries \color{brbg72}\@title}}
 \newcommand{\MYINFO}{{\Large \infolinks}}
 \newcommand{\MyInfo}{}
