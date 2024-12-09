@@ -54,6 +54,8 @@ anchorcolor=brbg77]{hyperref}
     \hspace{.7em}\href{#1}{\faLinkedin}}}%
 \newcommand{\DUrolephone}[1]{\g@addto@macro\infolinks{%
     \hspace{.7em}\href{tel:#1}{\faPhone}}}%
+\newcommand{\@subtitle}{}%
+\newcommand{\DUrolesubtitle}[1]{\renewcommand{\@subtitle}{#1}}%
 \newcommand{\DUrolestreet}[1]{\newcommand{\@infostreet}{#1}}%
 \newcommand{\DUrolecity}[1]{\newcommand{\@infocity}{#1}}%
 \makeatother
@@ -115,10 +117,7 @@ anchorcolor=brbg77]{hyperref}
 
 \newcommand{\infosep}{\makebox[2em][c]{$\bullet$}}
 \newcommand{\MYNAME}{\raisebox{0pt}{\Huge \sffamily \bfseries \color{brbg72}\@title}%
-\color{subtitle}\firaheavy%
-\parbox[b]{3.4em}{\raisebox{8pt}{\hskip 0.8em Software}}%
-Engineer%
-}
+  \color{subtitle}\firaheavy \hfil \@subtitle}
 \newcommand{\MyName}{{\Large \sffamily \bfseries \color{brbg72}\@title}}
 \newcommand{\MYINFO}{{\Large \infolinks}}
 \newcommand{\MyInfo}{}
