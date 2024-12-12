@@ -17,7 +17,7 @@ Education
 2024 – Present
 
     :description:`Power Tech`
-    :organization:`Google and Reichman Power Tech`
+    :organization:`Google and Reichman Tech School`
 
     Power Tech is an advanced program that combines extensive industry-oriented training with a solid academic foundation. The curriculum covers Software Development Processes along with detailed instruction on Software Testing Cycles and System Analysis. It includes C Programming with a focus on real-time applications and AI Integration. And also experience with CI-CD Processes.
 
