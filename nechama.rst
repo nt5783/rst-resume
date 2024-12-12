@@ -1,8 +1,11 @@
 ===============
 Nechama Taurog
 ===============
+
+
 .. include:: utils.rst
 
+:subtitle:`Software Engineer`
 :phone:`+972-58-324-3609`
 :email:`nt243609@gmail.com`
 :github:`https://github.com/nt5783`

@@ -1,3 +1,5 @@
+.. role:: subtitle
+
 .. role:: email
 
 .. role:: github
